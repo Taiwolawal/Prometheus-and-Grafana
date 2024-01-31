@@ -1,0 +1,4 @@
+nodejs-application/.idea
+nodejs-application/node_modules
+nodejs-application/*.DS_Store
+nodejs-application/*tgz
