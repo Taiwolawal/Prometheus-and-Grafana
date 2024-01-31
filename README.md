@@ -1,2 +1,9 @@
 # Prometheus-and-Grafana
-This project is focused on using prometheus to monitor cluster nodes, kubernetes component, 3rd party application and monitor own application. Also, putting in place proper alert in place 
+This project is focused on using Prometheus for monitoring on different levels:
+
+- Infrastructure Level: CPU, RAM, Network etc
+- Platform Level: Kubernetes components
+- Application Level: 3rd-party and Own application
+
+Also, implementing Grafana for data visualization
+
