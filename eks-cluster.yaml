@@ -7,8 +7,13 @@ metadata:
 
 nodeGroups:
   - name: ng-1
-    instanceType: t2.medium
+    instanceType: t3.medium
     desiredCapacity: 1
+    minSize: 1
+    maxSize: 4
     volumeSize: 20
+    volumeType: gp2
+    tags:
+      nodegroup-type: worker
 
  
