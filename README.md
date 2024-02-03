@@ -85,6 +85,40 @@ https://awesome-prometheus-alerts.grep.to/  https://samber.github.io/awesome-pro
 
 ![image](https://github.com/Taiwolawal/Prometheus-and-Grafana/assets/50557587/5e0d9b96-c9dc-4078-9d6e-1285ab0560ec)
 
+<img width="961" alt="image" src="https://github.com/Taiwolawal/Prometheus-and-Grafana/assets/50557587/9f089890-ef7b-4bc2-8a72-150ac1b6ac72">
+
+![image](https://github.com/Taiwolawal/Prometheus-and-Grafana/assets/50557587/03f9f1ea-0c0b-4a4d-aac4-0598bd212fba)
+
+https://grafana.com/grafana/dashboards/  https://grafana.com/grafana/dashboards/11835-redis-dashboard-for-prometheus-redis-exporter-helm-stable-redis-ha/
+
+![image](https://github.com/Taiwolawal/Prometheus-and-Grafana/assets/50557587/44b16545-6d1a-40e2-81a1-8d964e125bf3)
+
+![image](https://github.com/Taiwolawal/Prometheus-and-Grafana/assets/50557587/f7624cec-e8fe-4003-9ba7-2f790180a135)
+
+![image](https://github.com/Taiwolawal/Prometheus-and-Grafana/assets/50557587/9fa07916-450d-41c4-959d-341a4d37b830)
+
+![image](https://github.com/Taiwolawal/Prometheus-and-Grafana/assets/50557587/cc687c87-f9fd-4064-9bed-99ca124a73c0)
+
+![image](https://github.com/Taiwolawal/Prometheus-and-Grafana/assets/50557587/48ad7bfd-4d72-4037-93b7-0c37a2bef9d4)
+
+15895
+
+![image](https://github.com/Taiwolawal/Prometheus-and-Grafana/assets/50557587/599a35fb-59d3-4f68-b55f-44426b0871ad)
+
+<img width="819" alt="image" src="https://github.com/Taiwolawal/Prometheus-and-Grafana/assets/50557587/cfe264e1-0b20-473d-82bd-c0d6096b79db">
+
+![image](https://github.com/Taiwolawal/Prometheus-and-Grafana/assets/50557587/bc47badd-5629-423c-aec1-6407f1b0052f)
+
+
+
+
+
+
+
+
+
+
+
 
 
 
