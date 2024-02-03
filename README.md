@@ -109,6 +109,9 @@ https://grafana.com/grafana/dashboards/  https://grafana.com/grafana/dashboards/
 
 ![image](https://github.com/Taiwolawal/Prometheus-and-Grafana/assets/50557587/bc47badd-5629-423c-aec1-6407f1b0052f)
 
+![image](https://github.com/Taiwolawal/Prometheus-and-Grafana/assets/50557587/48058fec-cd23-4e68-9bb6-4d0581a8dd1c)
+
+
 
 
 
