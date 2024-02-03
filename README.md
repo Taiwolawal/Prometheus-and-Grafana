@@ -80,6 +80,9 @@ https://awesome-prometheus-alerts.grep.to/  https://samber.github.io/awesome-pro
 
 <img width="811" alt="image" src="https://github.com/Taiwolawal/Prometheus-and-Grafana/assets/50557587/c594fc3a-7822-478a-b72d-dd1895c9918d">
 
+<img width="606" alt="image" src="https://github.com/Taiwolawal/Prometheus-and-Grafana/assets/50557587/613b11cc-f65f-4e10-8cd1-a79201438624">
+
+
 ![image](https://github.com/Taiwolawal/Prometheus-and-Grafana/assets/50557587/5e0d9b96-c9dc-4078-9d6e-1285ab0560ec)
 
 
