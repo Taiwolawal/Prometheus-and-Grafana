@@ -40,9 +40,15 @@ List below are the metrics gotten from the clusters
 
 ![image](https://github.com/Taiwolawal/Prometheus-and-Grafana/assets/50557587/5c3de341-f103-4dea-9b1e-1ef363699d50)
 
-![image](https://github.com/Taiwolawal/Prometheus-and-Grafana/assets/50557587/0f486803-a146-4909-b8eb-a2773f662575)
+Detailed metrics for the cluster
 
 ![image](https://github.com/Taiwolawal/Prometheus-and-Grafana/assets/50557587/86c874e4-cbee-4926-815d-a5fe57539d94)
+
+Deployed a microservice application
+
+![image](https://github.com/Taiwolawal/Prometheus-and-Grafana/assets/50557587/0f486803-a146-4909-b8eb-a2773f662575)
+
+
 
 <img width="941" alt="image" src="https://github.com/Taiwolawal/Prometheus-and-Grafana/assets/50557587/87d2b0a9-e14b-44fe-8de0-716a87b423b6">
 
