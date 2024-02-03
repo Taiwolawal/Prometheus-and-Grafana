@@ -29,5 +29,9 @@ Also, implementing Grafana for data visualization
 
 ![image](https://github.com/Taiwolawal/Prometheus-and-Grafana/assets/50557587/86c874e4-cbee-4926-815d-a5fe57539d94)
 
+<img width="941" alt="image" src="https://github.com/Taiwolawal/Prometheus-and-Grafana/assets/50557587/87d2b0a9-e14b-44fe-8de0-716a87b423b6">
+
+<img width="880" alt="image" src="https://github.com/Taiwolawal/Prometheus-and-Grafana/assets/50557587/bf7e61b9-dd21-4e3e-a39e-53f195273513">
+
 
 
