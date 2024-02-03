@@ -28,7 +28,6 @@ metadata:
   labels:
     app: nodeapp
 spec:
-  type: LoadBalancer
   selector:
     app: nodeapp
   ports:
