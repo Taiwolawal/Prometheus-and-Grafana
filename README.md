@@ -20,3 +20,12 @@ Also, implementing Grafana for data visualization
 ![image](https://github.com/Taiwolawal/Prometheus-and-Grafana/assets/50557587/027539fd-9a0a-4a6a-b9c3-68b398716ed5)
 
 ![image](https://github.com/Taiwolawal/Prometheus-and-Grafana/assets/50557587/ca5f1e18-1217-4c5c-a490-b44c58c61db2)
+
+<img width="833" alt="image" src="https://github.com/Taiwolawal/Prometheus-and-Grafana/assets/50557587/e8db7285-08d1-4151-8b30-009e1b55a0e9">
+
+![image](https://github.com/Taiwolawal/Prometheus-and-Grafana/assets/50557587/5c3de341-f103-4dea-9b1e-1ef363699d50)
+
+![image](https://github.com/Taiwolawal/Prometheus-and-Grafana/assets/50557587/86c874e4-cbee-4926-815d-a5fe57539d94)
+
+
+
