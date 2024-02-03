@@ -14,7 +14,8 @@ Setup EKS cluster using EKSCTL command.
 <img width="1413" alt="image" src="https://github.com/Taiwolawal/Prometheus-and-Grafana/assets/50557587/4f47a740-917c-4c48-b83b-bc2210f703d8">
 
 
-Connect to the cluster and ensure helm in install in the cluster. Add prometheus chart and install prometheus into the cluster
+
+Connect to the cluster and ensure helm is installed in the cluster. Add prometheus chart and install prometheus into the cluster
 <img width="1155" alt="image" src="https://github.com/Taiwolawal/Prometheus-and-Grafana/assets/50557587/4922e970-6da7-4714-afa2-9070639216c8">
 
 <img width="1338" alt="image" src="https://github.com/Taiwolawal/Prometheus-and-Grafana/assets/50557587/d6c66320-07a9-443f-94a1-231f4d2a9d3e">
@@ -25,11 +26,17 @@ Port forward to grafana and prometheus service to connect to the U.I
 
 <img width="841" alt="image" src="https://github.com/Taiwolawal/Prometheus-and-Grafana/assets/50557587/62430c3e-1b3e-412f-9ef7-ce7d9a104700">
 
+
+Access UI for prometheus and grafana (enter required credentials)
+
 ![image](https://github.com/Taiwolawal/Prometheus-and-Grafana/assets/50557587/ca5f1e18-1217-4c5c-a490-b44c58c61db2)
 
 ![image](https://github.com/Taiwolawal/Prometheus-and-Grafana/assets/50557587/027539fd-9a0a-4a6a-b9c3-68b398716ed5)
 
 ![image](https://github.com/Taiwolawal/Prometheus-and-Grafana/assets/50557587/716eefea-d370-4e40-ac39-1ea6cfeb6e60)
+
+
+List below are the metrics gotten from the clusters
 
 <img width="833" alt="image" src="https://github.com/Taiwolawal/Prometheus-and-Grafana/assets/50557587/e8db7285-08d1-4151-8b30-009e1b55a0e9">
 
