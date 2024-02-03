@@ -73,6 +73,19 @@ Also, implementing Grafana for data visualization
 
 <img width="687" alt="image" src="https://github.com/Taiwolawal/Prometheus-and-Grafana/assets/50557587/fa0008a0-d359-40c8-a88e-33491294b10c">
 
+https://awesome-prometheus-alerts.grep.to/  https://samber.github.io/awesome-prometheus-alerts/rules#redis
+
+![image](https://github.com/Taiwolawal/Prometheus-and-Grafana/assets/50557587/e8c136b3-dbbd-406f-8afc-ac105650e582)
+
+
+<img width="811" alt="image" src="https://github.com/Taiwolawal/Prometheus-and-Grafana/assets/50557587/c594fc3a-7822-478a-b72d-dd1895c9918d">
+
+![image](https://github.com/Taiwolawal/Prometheus-and-Grafana/assets/50557587/5e0d9b96-c9dc-4078-9d6e-1285ab0560ec)
+
+
+
+
+
 
 
 
