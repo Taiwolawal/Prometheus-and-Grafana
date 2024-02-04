@@ -198,8 +198,6 @@ Define the metrics we want to setup on grafana dashboard
 
 ![image](https://github.com/Taiwolawal/Prometheus-and-Grafana/assets/50557587/bf7faffd-0191-4071-905e-52d1a591e756)
 
-![image](https://github.com/Taiwolawal/Prometheus-and-Grafana/assets/50557587/6c36b74c-84d5-47a7-bdb1-9322ae2b6d6d)
-
 ![image](https://github.com/Taiwolawal/Prometheus-and-Grafana/assets/50557587/7981da35-2925-43ec-8ad6-79e0471a9056)
 
 ![image](https://github.com/Taiwolawal/Prometheus-and-Grafana/assets/50557587/ab02262a-9813-402e-aeca-0de5b9515915)
