@@ -194,13 +194,13 @@ The targets have been included and we can query metrics for the application
 
 ![image](https://github.com/Taiwolawal/Prometheus-and-Grafana/assets/50557587/45f153e5-ba8a-44dd-abc5-a6307ef63581)
 
-Define the metrics we want to setup on grafana dashboard
+Define the metrics we want to setup on grafana dashboard by creating a new dashboard  and setting a preferred name.
 
 ![image](https://github.com/Taiwolawal/Prometheus-and-Grafana/assets/50557587/bf7faffd-0191-4071-905e-52d1a591e756)
 
-![image](https://github.com/Taiwolawal/Prometheus-and-Grafana/assets/50557587/7981da35-2925-43ec-8ad6-79e0471a9056)
-
 ![image](https://github.com/Taiwolawal/Prometheus-and-Grafana/assets/50557587/ab02262a-9813-402e-aeca-0de5b9515915)
+
+![image](https://github.com/Taiwolawal/Prometheus-and-Grafana/assets/50557587/7981da35-2925-43ec-8ad6-79e0471a9056)
 
 ![image](https://github.com/Taiwolawal/Prometheus-and-Grafana/assets/50557587/194b02a7-c311-48ac-9616-f5b4bb59d930)
 
