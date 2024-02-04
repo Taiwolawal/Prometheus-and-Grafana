@@ -58,6 +58,7 @@ Deployed a microservice application
 ![image](https://github.com/Taiwolawal/Prometheus-and-Grafana/assets/50557587/0f486803-a146-4909-b8eb-a2773f662575)
 
 
+We will launch a container dedicated to using the Curl command on the load balancer. This involves connecting to the applications through a script that establishes a loop, which create a high traffic 
 
 <img width="941" alt="image" src="https://github.com/Taiwolawal/Prometheus-and-Grafana/assets/50557587/87d2b0a9-e14b-44fe-8de0-716a87b423b6">
 
@@ -67,9 +68,22 @@ Deployed a microservice application
 
 ![image](https://github.com/Taiwolawal/Prometheus-and-Grafana/assets/50557587/7817711d-ea12-480b-aeac-79548e09440a)
 
+
+The expression `rate(node_cpu_seconds_total{mode="idle"}[2m])` is a Prometheus query that calculates the per-second rate of change for the `node_cpu_seconds_total` metric with the `mode` label set to `"idle". This type of expression is what is used by grafana to display metrics needed.
+
+
 ![image](https://github.com/Taiwolawal/Prometheus-and-Grafana/assets/50557587/2fd7fccd-e99d-4361-8b17-827903805c4f)
 
+There is need to get notified when something goes wrong, this is where alerting comes into play
+
+- Define what we want to be notified about e.g when CPU usage is above is 50%
+- Send notification i.e email/slack notification (will be implemented later)
+
+We will set alert rules on any usecase we are interested e.g pod not starting. The prometheusrule handles the rules
+
 <img width="723" alt="image" src="https://github.com/Taiwolawal/Prometheus-and-Grafana/assets/50557587/c2f72139-1a3c-49b3-b9a6-11a32d786f0c">
+
+When setting up this rules, its imperative to make use of the appropriate labels in the rules we plans on setting up, the highlighted lables below needs to be specified in our rule.
 
 <img width="924" alt="image" src="https://github.com/Taiwolawal/Prometheus-and-Grafana/assets/50557587/4e99ece2-7d9e-41c2-9f2a-eb4e572fff47">
 
