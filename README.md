@@ -6,7 +6,7 @@ This project is focused on using Prometheus for monitoring on different levels a
 - Application Level: 3rd-party and Own application
 
 Requirements:
--  Ensure AWS-CLI and Helm are installed
+-  Ensure [AWS-CLI](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html) and [Helm](https://helm.sh/docs/intro/install/) are installed
 - Configure AWS credentials on local machine with admin access (for project purpose)
 
 Setup EKS cluster using EKSCTL command.
@@ -14,7 +14,7 @@ Setup EKS cluster using EKSCTL command.
 <img width="1413" alt="image" src="https://github.com/Taiwolawal/Prometheus-and-Grafana/assets/50557587/4f47a740-917c-4c48-b83b-bc2210f703d8">
 
 
-Connect to the cluster and add prometheus chart and install prometheus chart for kubernetes into the cluster
+Connect to the cluster, add prometheus chart and install prometheus chart for kubernetes into the cluster
 
 <img width="1155" alt="image" src="https://github.com/Taiwolawal/Prometheus-and-Grafana/assets/50557587/4922e970-6da7-4714-afa2-9070639216c8">
 
@@ -91,7 +91,7 @@ We are setting two alerts respectively `down`and `HostHighCpuLoad`. The labels a
 
 <img width="1400" alt="image" src="https://github.com/Taiwolawal/Prometheus-and-Grafana/assets/50557587/70efbca1-c34f-41be-9939-3f73efc3f681">
 
-When you apply this rules, ensure you check prometheus log of config-reloader container to confirm a reload has triggered(which implies the rule has been added to the prometheus yaml file) by checking the time and confirm it occured after applying the rule.
+When you apply this rules, ensure you check prometheus log of config-reloader container to confirm a reload has triggered(which implies the rule has been added) by checking the time and confirm it occured after applying the rule.
 
 <img width="1423" alt="image" src="https://github.com/Taiwolawal/Prometheus-and-Grafana/assets/50557587/c47effa7-4a56-49a4-a251-d898ee327d32">
 
@@ -178,11 +178,11 @@ There are other redis dashboards you can also use. The one below is with ID `158
 
 ![image](https://github.com/Taiwolawal/Prometheus-and-Grafana/assets/50557587/599a35fb-59d3-4f68-b55f-44426b0871ad)
 
-Lastly, we want to monitor our own application deployed in the cluster and we are using a nodejs application. There are no exporter available for our own application, so we have to define the metrics (custome solution). There are prometheus client library for different languages in which the application is written it. Developers write the code using the prometheus client library. The screenshot shows metrics to monitor in the application
+Lastly, we want to monitor our own application deployed in the cluster and we are using a nodejs application. There are no exporter available for our own application, so we have to define the metrics (custom solution). There are prometheus client library for different languages in which the application is written it. Developers write the code using the prometheus client library. The screenshot shows metrics to monitor in the application
 
 <img width="819" alt="image" src="https://github.com/Taiwolawal/Prometheus-and-Grafana/assets/50557587/cfe264e1-0b20-473d-82bd-c0d6096b79db">
 
-We need to ensure to setup a servicemonitor with the appropriate label for the application `nodeapp`and promtetheus `release=prometheus` respectively so that the targets can be included in prometheus for monitoring
+We need to ensure to setup a servicemonitor with the appropriate label for the application `nodeapp`and prometheus `release=prometheus` respectively so that the targets can be included in prometheus for monitoring
 
 ![image](https://github.com/Taiwolawal/Prometheus-and-Grafana/assets/50557587/db6c81f3-bc7f-4b05-a1df-0e6b170aadcc)
 
