@@ -87,6 +87,8 @@ When setting up this rules, its imperative to make use of the appropriate labels
 
 <img width="924" alt="image" src="https://github.com/Taiwolawal/Prometheus-and-Grafana/assets/50557587/4e99ece2-7d9e-41c2-9f2a-eb4e572fff47">
 
+We are setting two alerts respectively `down`and `HostHighCpuLoad`. The labels are included so that prometheusrule can include it in the alert that it has to monitor
+
 <img width="1400" alt="image" src="https://github.com/Taiwolawal/Prometheus-and-Grafana/assets/50557587/70efbca1-c34f-41be-9939-3f73efc3f681">
 
 <img width="673" alt="image" src="https://github.com/Taiwolawal/Prometheus-and-Grafana/assets/50557587/f8510c7c-0fc0-48c5-a265-c867401331f5">
