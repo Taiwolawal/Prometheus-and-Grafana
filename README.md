@@ -153,6 +153,9 @@ Ensure you specified the appropriate labels and apply the rule
 
 Let edit the redis pod replica to zero, to see if the redis-exporter will be triggered.
 
+<img width="591" alt="image" src="https://github.com/Taiwolawal/Prometheus-and-Grafana/assets/50557587/2cda3a29-b458-46a8-b4d2-0743ba9ce929">
+
+
 <img width="961" alt="image" src="https://github.com/Taiwolawal/Prometheus-and-Grafana/assets/50557587/9f089890-ef7b-4bc2-8a72-150ac1b6ac72">
 
 ![image](https://github.com/Taiwolawal/Prometheus-and-Grafana/assets/50557587/03f9f1ea-0c0b-4a4d-aac4-0598bd212fba)
