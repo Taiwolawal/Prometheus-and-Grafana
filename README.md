@@ -52,6 +52,9 @@ Below is a detailed metrics for the cluster
 
 Deployed a microservice application
 
+<img width="597" alt="image" src="https://github.com/Taiwolawal/Prometheus-and-Grafana/assets/50557587/2c60515a-211d-4f87-a721-438d26e41661">
+
+
 ![image](https://github.com/Taiwolawal/Prometheus-and-Grafana/assets/50557587/0f486803-a146-4909-b8eb-a2773f662575)
 
 
