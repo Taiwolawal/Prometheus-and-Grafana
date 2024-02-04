@@ -98,24 +98,24 @@ When you apply this rules, ensure you check prometheus log of config-reloader co
 <img width="673" alt="image" src="https://github.com/Taiwolawal/Prometheus-and-Grafana/assets/50557587/f8510c7c-0fc0-48c5-a265-c867401331f5">
 
 
-The alerts have been updated to generate CPU load and see if the alert will be triggered.
+The alerts have been updated.
 
 
 ![image](https://github.com/Taiwolawal/Prometheus-and-Grafana/assets/50557587/a92f7ed4-ef9d-4a91-9dc3-2ea979088363)
 
-The alert was triggered as expected.
-
 ![image](https://github.com/Taiwolawal/Prometheus-and-Grafana/assets/50557587/636e8175-224a-431c-9a47-a70478730a95)
 
-Let run cpustress container 
+Let run cpustress container to generate CPU load and see if the alert will be triggered.
 
 <img width="787" alt="image" src="https://github.com/Taiwolawal/Prometheus-and-Grafana/assets/50557587/31633f51-1899-44ed-8b4f-a746dc59ee92">
+
+![image](https://github.com/Taiwolawal/Prometheus-and-Grafana/assets/50557587/efcacc39-bbc9-41b5-a5d1-cf4e2a183a01)
 
 We have recently completed Kubernetes-level monitoring. Now, we are turning our attention to monitoring Redis, a third-party application within our microservices. To achieve this, we are utilizing an exporter that fetches metric data from the service and transforms the service-specific metrics into a format understandable by Prometheus. This exporter exposes the translated metrics through the `/metrics` endpoint. To ensure Prometheus is aware of this new exporter, we will deploy a ServiceMonitor, a custom Kubernetes resource designed for this purpose.
 
 Deploy redis exporter, ensure you set servicemonitor to true and specify the redis service name in the helms value 
 
-![image](https://github.com/Taiwolawal/Prometheus-and-Grafana/assets/50557587/efcacc39-bbc9-41b5-a5d1-cf4e2a183a01)
+
 
 <img width="1163" alt="image" src="https://github.com/Taiwolawal/Prometheus-and-Grafana/assets/50557587/19d2024e-f5db-4ab8-a3bc-eb5732d0b3ea">
 
