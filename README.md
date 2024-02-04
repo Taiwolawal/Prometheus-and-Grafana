@@ -6,14 +6,15 @@ This project is focused on using Prometheus for monitoring on different levels a
 - Application Level: 3rd-party and Own application
 
 Requirements:
--  Ensure AWS-CLI is installed
-- Configure AWS credentials on local machine
+-  Ensure AWS-CLI and Helm are installed
+- Configure AWS credentials on local machine with admin access (for project purpose)
 
 Setup EKS cluster using EKSCTL command.
 
 <img width="1413" alt="image" src="https://github.com/Taiwolawal/Prometheus-and-Grafana/assets/50557587/4f47a740-917c-4c48-b83b-bc2210f703d8">
 
-Connect to the cluster and ensure helm is installed in the cluster. Add prometheus chart and install prometheus into the cluster
+
+Connect to the cluster and add prometheus chart and install prometheus chart for kubernetes into the cluster
 
 <img width="1155" alt="image" src="https://github.com/Taiwolawal/Prometheus-and-Grafana/assets/50557587/4922e970-6da7-4714-afa2-9070639216c8">
 
@@ -28,6 +29,7 @@ Port forward to grafana and prometheus service to connect to the U.I
 
 Access UI for prometheus and grafana (enter required credentials)
 
+
 ![image](https://github.com/Taiwolawal/Prometheus-and-Grafana/assets/50557587/ca5f1e18-1217-4c5c-a490-b44c58c61db2)
 
 ![image](https://github.com/Taiwolawal/Prometheus-and-Grafana/assets/50557587/027539fd-9a0a-4a6a-b9c3-68b398716ed5)
@@ -36,13 +38,17 @@ Access UI for prometheus and grafana (enter required credentials)
 
 <img width="833" alt="image" src="https://github.com/Taiwolawal/Prometheus-and-Grafana/assets/50557587/e8db7285-08d1-4151-8b30-009e1b55a0e9">
 
-List below are the metrics gotten from the clusters
+
+List below are the metrics gotten from the clusters including the nodes also
+
 
 ![image](https://github.com/Taiwolawal/Prometheus-and-Grafana/assets/50557587/5c3de341-f103-4dea-9b1e-1ef363699d50)
 
-Detailed metrics for the cluster
+
+Below is a detailed metrics for the cluster
 
 ![image](https://github.com/Taiwolawal/Prometheus-and-Grafana/assets/50557587/86c874e4-cbee-4926-815d-a5fe57539d94)
+
 
 Deployed a microservice application
 
