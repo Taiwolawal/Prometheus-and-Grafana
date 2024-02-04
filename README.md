@@ -116,7 +116,6 @@ We have recently completed Kubernetes-level monitoring. Now, we are turning our 
 Deploy redis exporter, ensure you set servicemonitor to true and specify the redis service name in the helms value 
 
 
-
 <img width="1163" alt="image" src="https://github.com/Taiwolawal/Prometheus-and-Grafana/assets/50557587/19d2024e-f5db-4ab8-a3bc-eb5732d0b3ea">
 
 <img width="620" alt="image" src="https://github.com/Taiwolawal/Prometheus-and-Grafana/assets/50557587/23c15dde-146b-434a-bac8-36a011304bb9">
@@ -127,13 +126,19 @@ Deploy redis exporter, ensure you set servicemonitor to true and specify the red
 
 <img width="1284" alt="image" src="https://github.com/Taiwolawal/Prometheus-and-Grafana/assets/50557587/ea5968f9-0582-4b7d-b8e1-90117cdc8809">
 
+Redis-exporter is deployed by checking the targets under the status section and we can query different redis metrics.
+
 ![image](https://github.com/Taiwolawal/Prometheus-and-Grafana/assets/50557587/270f5a1a-55b6-4fc8-b806-1a1eccbc51c1)
 
 ![image](https://github.com/Taiwolawal/Prometheus-and-Grafana/assets/50557587/aa024fa3-95d3-4410-b1d8-756ccaa4ca5b)
 
+We can see the redis-exporter pod
+
 <img width="924" alt="image" src="https://github.com/Taiwolawal/Prometheus-and-Grafana/assets/50557587/744afb08-39c5-4af9-b3a7-3a38b6f08509">
 
 <img width="687" alt="image" src="https://github.com/Taiwolawal/Prometheus-and-Grafana/assets/50557587/fa0008a0-d359-40c8-a88e-33491294b10c">
+
+[LINKS]: https://awesome-prometheus-alerts.grep.to/
 
 https://awesome-prometheus-alerts.grep.to/  https://samber.github.io/awesome-prometheus-alerts/rules#redis
 
