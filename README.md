@@ -93,6 +93,8 @@ We are setting two alerts respectively `down`and `HostHighCpuLoad`. The labels a
 
 <img width="673" alt="image" src="https://github.com/Taiwolawal/Prometheus-and-Grafana/assets/50557587/f8510c7c-0fc0-48c5-a265-c867401331f5">
 
+<img width="1423" alt="image" src="https://github.com/Taiwolawal/Prometheus-and-Grafana/assets/50557587/c47effa7-4a56-49a4-a251-d898ee327d32">
+
 ![image](https://github.com/Taiwolawal/Prometheus-and-Grafana/assets/50557587/a92f7ed4-ef9d-4a91-9dc3-2ea979088363)
 
 ![image](https://github.com/Taiwolawal/Prometheus-and-Grafana/assets/50557587/636e8175-224a-431c-9a47-a70478730a95)
