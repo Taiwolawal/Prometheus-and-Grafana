@@ -138,20 +138,20 @@ We can see the redis-exporter pod
 
 <img width="687" alt="image" src="https://github.com/Taiwolawal/Prometheus-and-Grafana/assets/50557587/fa0008a0-d359-40c8-a88e-33491294b10c">
 
-We can setup a prometheusrule using ready made rules [Exporter rules](https://awesome-prometheus-alerts.grep.to/) to define the rules to specify for our exporters. For our redis application, we will be using [Redis rule](https://samber.github.io/awesome-prometheus-alerts/rules#redis)
+We can setup a prometheusrule using ready made rules [Exporter rules](https://awesome-prometheus-alerts.grep.to/) to define the rules to specify for our exporters. For our redis application, we will be using [Redis rule](https://samber.github.io/awesome-prometheus-alerts/rules#redis), like the screenshot below.
 
-
-https://awesome-prometheus-alerts.grep.to/  https://samber.github.io/awesome-prometheus-alerts/rules#redis
 
 ![image](https://github.com/Taiwolawal/Prometheus-and-Grafana/assets/50557587/e8c136b3-dbbd-406f-8afc-ac105650e582)
 
+Ensure you specified the appropriate labels and apply the rule
 
 <img width="811" alt="image" src="https://github.com/Taiwolawal/Prometheus-and-Grafana/assets/50557587/c594fc3a-7822-478a-b72d-dd1895c9918d">
 
 <img width="606" alt="image" src="https://github.com/Taiwolawal/Prometheus-and-Grafana/assets/50557587/613b11cc-f65f-4e10-8cd1-a79201438624">
 
-
 ![image](https://github.com/Taiwolawal/Prometheus-and-Grafana/assets/50557587/5e0d9b96-c9dc-4078-9d6e-1285ab0560ec)
+
+Let edit the redis pod replica to zero, to see if the redis-exporter will be triggered.
 
 <img width="961" alt="image" src="https://github.com/Taiwolawal/Prometheus-and-Grafana/assets/50557587/9f089890-ef7b-4bc2-8a72-150ac1b6ac72">
 
