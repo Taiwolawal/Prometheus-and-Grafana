@@ -111,7 +111,7 @@ Let run cpustress container to generate CPU load and see if the alert will be tr
 
 ![image](https://github.com/Taiwolawal/Prometheus-and-Grafana/assets/50557587/efcacc39-bbc9-41b5-a5d1-cf4e2a183a01)
 
-We have recently completed Kubernetes-level monitoring. Now, we are turning our attention to monitoring Redis, a third-party application within our microservices. To achieve this, we are utilizing an exporter that fetches metric data from the service and transforms the service-specific metrics into a format understandable by Prometheus. This exporter exposes the translated metrics through the `/metrics` endpoint. To ensure Prometheus is aware of this new exporter, we will deploy a ServiceMonitor, a custom Kubernetes resource designed for this purpose.
+We just completed Kubernetes-level monitoring. Now, we are turning our attention to monitoring Redis, a third-party application within our microservices. To achieve this, we are utilizing an exporter that fetches metric data from the service and transforms the service-specific metrics into a format understandable by Prometheus. This exporter exposes the translated metrics through the `/metrics` endpoint. To ensure Prometheus is aware of this new exporter, we will deploy a ServiceMonitor, a custom Kubernetes resource designed for this purpose.
 
 Deploy redis exporter, ensure you set servicemonitor to true and specify the redis service name in the helms value 
 
