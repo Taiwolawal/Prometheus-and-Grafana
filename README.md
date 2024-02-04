@@ -155,12 +155,12 @@ Let edit the redis pod replica to zero, to see if the redis-exporter will be tri
 
 <img width="591" alt="image" src="https://github.com/Taiwolawal/Prometheus-and-Grafana/assets/50557587/2cda3a29-b458-46a8-b4d2-0743ba9ce929">
 
-
 <img width="961" alt="image" src="https://github.com/Taiwolawal/Prometheus-and-Grafana/assets/50557587/9f089890-ef7b-4bc2-8a72-150ac1b6ac72">
+
+Now lets try and create a dashboard for our redis application, we can make use of ready made dashboards from [Dashboards](https://grafana.com/grafana/dashboards/), we will be making use on one of the numerous dashoard for [Redis]( https://grafana.com/grafana/dashboards/11835-redis-dashboard-for-prometheus-redis-exporter-helm-stable-redis-ha/)
 
 ![image](https://github.com/Taiwolawal/Prometheus-and-Grafana/assets/50557587/03f9f1ea-0c0b-4a4d-aac4-0598bd212fba)
 
-https://grafana.com/grafana/dashboards/  https://grafana.com/grafana/dashboards/11835-redis-dashboard-for-prometheus-redis-exporter-helm-stable-redis-ha/
 
 ![image](https://github.com/Taiwolawal/Prometheus-and-Grafana/assets/50557587/44b16545-6d1a-40e2-81a1-8d964e125bf3)
 
