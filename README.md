@@ -174,18 +174,25 @@ Copy the ID number and import the dashboard in grafana using the number, ensure 
 
 ![image](https://github.com/Taiwolawal/Prometheus-and-Grafana/assets/50557587/48ad7bfd-4d72-4037-93b7-0c37a2bef9d4)
 
-15895
+There are other redis dashboards you can also use. The one below is with ID `15895`.
 
 ![image](https://github.com/Taiwolawal/Prometheus-and-Grafana/assets/50557587/599a35fb-59d3-4f68-b55f-44426b0871ad)
 
+Lastly, we want to monitor our own application deployed in the cluster and we are using a nodejs application. There are no exporter available for our own application, so we have to define the metrics (custome solution). There are prometheus client library for different languages in which the application is written it. Developers write the code using the prometheus client library. The screenshot shows metrics to monitor in the application
+
 <img width="819" alt="image" src="https://github.com/Taiwolawal/Prometheus-and-Grafana/assets/50557587/cfe264e1-0b20-473d-82bd-c0d6096b79db">
+
+We need to ensure to setup a servicemonitor with the appropriate label for the application `nodeapp`and promtetheus `release=prometheus` respectively so that the targets can be included in prometheus for monitoring
 
 ![image](https://github.com/Taiwolawal/Prometheus-and-Grafana/assets/50557587/db6c81f3-bc7f-4b05-a1df-0e6b170aadcc)
 
+The targets have been included and we can query metrics for the application 
 
 ![image](https://github.com/Taiwolawal/Prometheus-and-Grafana/assets/50557587/48058fec-cd23-4e68-9bb6-4d0581a8dd1c)
 
 ![image](https://github.com/Taiwolawal/Prometheus-and-Grafana/assets/50557587/45f153e5-ba8a-44dd-abc5-a6307ef63581)
+
+Define the metrics we want to setup on grafana dashboard
 
 ![image](https://github.com/Taiwolawal/Prometheus-and-Grafana/assets/50557587/bf7faffd-0191-4071-905e-52d1a591e756)
 
