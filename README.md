@@ -138,7 +138,8 @@ We can see the redis-exporter pod
 
 <img width="687" alt="image" src="https://github.com/Taiwolawal/Prometheus-and-Grafana/assets/50557587/fa0008a0-d359-40c8-a88e-33491294b10c">
 
-[LINKS]: https://awesome-prometheus-alerts.grep.to/
+We can setup a prometheusrule using ready made rules [Exporter rules](https://awesome-prometheus-alerts.grep.to/) to define the rules to specify for our exporters. For our redis application, we will be using [Redis rule](https://samber.github.io/awesome-prometheus-alerts/rules#redis)
+
 
 https://awesome-prometheus-alerts.grep.to/  https://samber.github.io/awesome-prometheus-alerts/rules#redis
 
