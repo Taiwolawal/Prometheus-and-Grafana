@@ -6,7 +6,7 @@ This project is focused on using Prometheus for monitoring on different levels a
 - Application Level: 3rd-party and Own application
 
 Requirements:
--  Ensure [AWS-CLI](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html) and [Helm](https://helm.sh/docs/intro/install/) are installed
+-  Ensure [AWS-CLI](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html), [Kubectl](https://docs.aws.amazon.com/eks/latest/userguide/install-kubectl.html)and [Helm](https://helm.sh/docs/intro/install/) are installed
 - Configure AWS credentials on local machine with admin access (for project purpose)
 
 Setup EKS cluster using EKSCTL command.
@@ -205,6 +205,20 @@ Define the metrics we want to monitor and setup a grafana dashboard to display t
 ![image](https://github.com/Taiwolawal/Prometheus-and-Grafana/assets/50557587/194b02a7-c311-48ac-9616-f5b4bb59d930)
 
 ![image](https://github.com/Taiwolawal/Prometheus-and-Grafana/assets/50557587/b951a92c-0a07-4e70-842b-a024c11c95b1)
+
+Ensure you delete the project when finished
+
+## BLOCKER: RESOLVED DELETING THE CLUSTER
+
+When trying to delete the cluster you might get the error below
+
+<img width="949" alt="image" src="https://github.com/Taiwolawal/Prometheus-and-Grafana/assets/50557587/a6c67f35-0fbe-4be2-8a15-0a585b3ba910">
+
+Follow the command below to resolve
+
+<img width="1002" alt="image" src="https://github.com/Taiwolawal/Prometheus-and-Grafana/assets/50557587/d1fcfa35-ba49-46e8-8332-b1ff3f402bdb">
+
+
 
 
 
