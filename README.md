@@ -6,7 +6,7 @@ This project is focused on using Prometheus for monitoring on different levels a
 - Application Level: 3rd-party and Own application
 
 Requirements:
--  Ensure [AWS-CLI](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html), [Kubectl](https://docs.aws.amazon.com/eks/latest/userguide/install-kubectl.html)and [Helm](https://helm.sh/docs/intro/install/) are installed
+-  Ensure [AWS-CLI](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html), [Kubectl](https://docs.aws.amazon.com/eks/latest/userguide/install-kubectl.html) and [Helm](https://helm.sh/docs/intro/install/) are installed
 - Configure AWS credentials on local machine with admin access (for project purpose)
 
 Setup EKS cluster using EKSCTL command.
